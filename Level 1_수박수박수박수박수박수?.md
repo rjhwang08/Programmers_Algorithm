@@ -23,6 +23,7 @@ public class WaterMelon {
     public String watermelon(int n){
 
         return new String(new char [n/2+1]).replace("\0", "수박").substring(0,n);
+        //char의 빈 배열은 "\0"로 채워짐 -> "\0"를 "수박"으로 바꾸는 것
     }
 
     // 실행을 위한 테스트코드입니다.
