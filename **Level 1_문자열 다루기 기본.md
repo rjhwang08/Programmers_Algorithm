@@ -15,7 +15,7 @@ class Solution {
 }
 ```
 
-2. 다른 사람의 풀이1(**)[예외처리](https://coding-factory.tistory.com/280)
+2. 다른 사람의 풀이1(**)[예외처리](https://highcode.tistory.com/6)
 ```java
 class Solution {
   public boolean solution(String s) {
