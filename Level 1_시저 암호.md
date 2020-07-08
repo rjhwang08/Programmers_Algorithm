@@ -38,6 +38,7 @@ class Solution {
         return answer;
     }
 }
+```
 
 3. 다른 사람의 풀이
 ```java
