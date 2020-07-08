@@ -9,7 +9,7 @@ class Solution {
         String answer = "";
         
         String[] arr = new String[s.length()];  // char 배열은 primitive type이라 Collections.reverseOrder()을 사용하지 못함 -> 객체 배열 필요
-		    arr = s.split("");                   // 글자 하나씩 자르는 방법 1
+	arr = s.split("");                   // 글자 하나씩 자르는 방법 1
         //for(int i=0; i < s.length(); i++)  // 글자 하나씩 자르는 방법 2
         //    arr[i] = Character.toString(s.charAt(i));
             
@@ -33,7 +33,7 @@ class Solution {
         StringBuilder sb = new StringBuilder();
         String[] arr = new String[s.length()];
         
-		    arr = s.split("");
+	arr = s.split("");
         Arrays.sort(arr, Collections.reverseOrder());
         
         for(String word : arr)
