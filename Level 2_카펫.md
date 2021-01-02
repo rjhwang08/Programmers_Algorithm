@@ -25,3 +25,25 @@ class Solution {
     }
 }
 ```
+
+2. Java
+```java
+class Solution {
+    public int[] solution(int brown, int yellow) {
+        int[] answer = new int[2];
+        int total = brown + yellow;
+        
+        for(int x=1; x*x <= yellow; x++) {
+            if(yellow%x != 0) continue;
+            int y = yellow / x;
+            if((x+2)*(y+2) == total) {
+                answer[0] = y+2;
+                answer[1] = x+2;
+                break;
+            }
+        }
+        
+        return answer;
+    }
+}
+```
